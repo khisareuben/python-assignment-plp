@@ -2,10 +2,10 @@
 f = open("my_file.txt", "w")
 text = ["Jonathan", "24", "male", "Sparkle", "25", "female"]
 
-# File Reading and Display
 for item in text:
   f.write(item + "\n")
-  
+
+# File Reading and Display
 f = open("my_file.txt", "r")
 print(f.read())
 
